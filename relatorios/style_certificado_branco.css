@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0; padding:0}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size:10pt;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-top: 22pt;
+	margin-bottom: 22pt;
+}
+h2 {
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-transform: uppercase;
+	page-break-after:avoid;
+}
+h4 {
+	margin-bottom: 4pt;
+}
+h4.sub {
+	font-size:9pt;
+	margin-bottom: 4pt;
+}
+.total {
+	float:right;
+	font-size: 12pt;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	border-top: 0.05cm solid #000000;
+	border-bottom: 0.05cm solid #000000;
+	text-align:right;
+}
+
+p#data {border-bottom: 1px solid #000;}
+
+
+/*TABLES*/
+
+.p {height:50px; display:block; margin-bottom:100px;}
+/*.space {font-size:5px;}*/
+.borda_normal {border:1px solid #000;}
+.destaque {background:#CCC; text-align:center; font-weight:bold; font-size:6pt}
+
+.titulo {font-weight:bold;}
+.noborder {border-bottom:none; border-left:none; border-right:none;}
+.notop {border: none;}
+.right {text-align:right;}
+.left {text-align:left;}
+.center {text-align:center;}
+
+#resumo {font-size:10pt;}
+
+
+/*#cabecalho {width:100%; border-top:0.4mm solid #000000; border-bottom:0.4mm solid #000000; border-collapse:collapse; font-size:7pt;}*/
+#table_cabecalho {width:100%; border-collapse:collapse; font-size:10pt; padding-left:4px; padding-right:4px;}
+#table_cabecalho th, td {text-align:left; padding-left:5px; padding-right:5px;/*border-top:0.4mm solid #000000;border-bottom:0.4mm solid #000000;border-right:0.4mm solid #000000;border-left:0.4mm solid #000000;*/}
+#table_cabecalho thead tr th.first {background-color:#568AD5; color:#FFF;}
+
+
+#table_auxiliar td {width:100%; color:#FFF; padding-left:4px; padding-right:4px;}
+
+#table_itens {border-collapse:collapse; font-size:7pt; width:100%; padding-left:4px; padding-right:4px;}
+/*#table_itens thead tr{background-color:#568AD5;}*/
+#table_itens thead th {color:#FFF; text-align:center;}
+/*#table_itens tbody tr{background-color:#FFFFFF;}*/
+/*#table_itens tbody tr:nth-child(even) {background-color:#ECECEC;}
+#table_itens tbody tr:nth-child(odd) {background-color:#F6F6F6;}*/
+#table_itens tbody td {color:#000;/*height:40px !important;*/}
+
+#table_info {border-collapse:collapse; font-size:7pt; width:100%; padding-left:2px; padding-right:2px;}

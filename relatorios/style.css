@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0; padding:0}
+
+body {
+	font-family: DejaVuSansCondensed, sans-serif;
+	font-size:10pt;
+	background:none;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 12pt;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	border-top: 0.05cm solid #000000;
+	border-bottom: 0.05cm solid #000000;
+	text-transform: uppercase;
+	page-break-after:avoid;
+}
+.total {
+	float:right;
+	font-size: 12pt;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	border-top: 0.05cm solid #000000;
+	border-bottom: 0.05cm solid #000000;
+	text-align:right;
+}
+
+p#data {border-bottom: 1px solid #000;}
+
+/*TABLES*/
+#cabecalho {width:100%; border-top:0.4mm solid #000000; border-bottom:0.4mm solid #000000; border-collapse:collapse; font-size:7pt;}
+#cabecalho th, td {text-align:left;}
+#fatura {border-collapse:collapse; font-size:7pt; width:100%; padding-left:2px;padding-right:2px;}
